@@ -7,7 +7,8 @@ const sql = new SQL({
 await sql`
 CREATE TABLE IF NOT EXISTS pastes (
     id TEXT NOT NULL,
-    content TEXT NOT NULL
+    content TEXT NOT NULL,
+    type TEXT NOT NULL
 );
 `
 
